@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'KR Birthday Letters';
+    src: url("KR\ Birthday\ Letters.ttf");
+}
+
+@font-face {
+    font-family: '101! Slice of Cake';
+    src: url("101!\ Slice\ of\ Cake.ttf");
+}
+
+
+body {
+    font-family: KR Birthday Letters;
+    color: grey;
+    background-image: url("birthday-bg.jpg");
+    background-size: cover;
+}
+
+#happy-bday {
+    margin: 10px, auto;
+    font-family: "101! Slice of Cake";
+    font-size: 47px;
+}
+
+#first-row, #middle-row, #last-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bday-image {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gift-image {
+    background-image: url("gift-image.png");
+    background-size: cover;
+    width: 200px;
+    height: 300px;
+}
+
+#sit:hover {
+    background-image: url("mh.png");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+}
+
+#plat:hover {
+    background-image: url("gold.png");
+    background-size: cover;
+}
+
+#dead:hover {
+    background-image: url("dead.webp");
+    background-size: cover;
+    width: 450px;
+    height: 260px;
+}
+
+#dropped:hover {
+    background-image: url("vellez.png");
+    width: 1000px;
+    height: 600px;
+}
